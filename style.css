@@ -20,6 +20,10 @@ nav {
   align-items: center;
   padding: 0 3em;
 }
+nav img {
+  width: 4.5em;
+  cursor: default;
+}
 nav h1 {
   font-size: 2em;
   cursor: default;
@@ -40,14 +44,15 @@ nav h1 {
   text-decoration-color: rgb (181, 181, 181);
 }
 #twitter {
-  background-color: #000;
-  color: white;
+  background-color: #4296d4;
+  color: #000;
   padding: 0.5em 1em;
   border-radius: 5px;
 }
 #twitter:hover {
-  background-color: #ffff;
-  color: #000;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #4296d4;
 }
 #mobile-nav {
   display: none;
@@ -59,10 +64,14 @@ nav h1 {
 }
 .left {
   height: 100%;
-  width: 60vw;
+  width: 55vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.text span {
+  color: #4296d4;
+  -webkit-text-stroke: 1px #000;
 }
 .text h3 {
   cursor: default;
@@ -85,12 +94,18 @@ nav h1 {
   border-radius: 5px;
   margin-top: 4em;
   font-weight: 600;
-  background: #000;
-  color: #ffff;
+  background: #4296d4;
+  color: #000;
+  border: 1px solid lightyellow;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #4296d4;
 }
 .right {
   height: 100%;
-  width: 40vw;
+  width: 45vw;
   display: flex;
   justify-content: center;
   align-items: center;
