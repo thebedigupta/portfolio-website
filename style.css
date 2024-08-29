@@ -22,6 +22,7 @@ nav {
 }
 nav h1 {
   font-size: 2em;
+  cursor: default;
 }
 .nav-links {
   display: flex;
@@ -64,13 +65,16 @@ nav h1 {
   align-items: center;
 }
 .text h3 {
+  cursor: default;
   font-family: "Satisfy", cursive;
   font-size: 3em;
 }
 .text h1 {
+  cursor: default;
   font-size: 4em;
 }
 .text p {
+  cursor: default;
   font-size: 1.2em;
   font-weight: 500;
 }
