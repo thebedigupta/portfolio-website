@@ -10,6 +10,10 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./mediaqueries.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>Bedi Gupta</title>
   </head>
   <body>
@@ -17,11 +21,11 @@
       <!-- <h1>Bedi Gupta</h1> -->
       <img src="./images/logo.png" alt="" />
       <div class="nav-links">
-        <a class="links" href="">Work</a>
         <a class="links" href="https://bedigupta.hashnode.dev/">Blogs</a>
         <a class="links" href="https://bedigupta.hashnode.dev/newsletter"
           >Newsletter</a
         >
+        <a class="links" href="./about/about.html">About</a>
         <a id="twitter" href="https://x.com/thebedigupta">Connect</a>
       </div>
     </nav>
@@ -35,7 +39,9 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <a class="links" href="" onclick="toggleMenu()">Work</a>
+          <a class="links" href="./about/about.html" onclick="toggleMenu()"
+            >About</a
+          >
           <a
             class="links"
             href="https://bedigupta.hashnode.dev/"
@@ -63,7 +69,12 @@
           <h3>Future-Proof</h3>
           <h1>Full Stack <span>Developer</span></h1>
           <p>Adapting to the ever-evolving tech landscape</p>
-          <button class="btn">Explore</button>
+          <button
+            class="btn"
+            onclick="window.location.href='https://docs.google.com/document/d/18-M5kiJvxYCwNf0cUiCCKlcogKoXFkAxXQXB-34g6Qg/edit?usp=sharing';"
+          >
+            Hire Me
+          </button>
         </div>
       </div>
       <div class="right box">
@@ -71,6 +82,190 @@
           <img src="./images/hero-pick.jpg" alt="Bedi Gupta Pick" />
         </div>
       </div>
+    </div>
+    <div id="second-page">
+      <div class="text-box">
+        <h1>Tech Stack</h1>
+        <p>
+          As a full-stack developer, I build dynamic and responsive web
+          applications using HTML5, CSS3, and JavaScript (ES6+). I’m currently
+          focused on enhancing my skills in back-end development with Node.js
+          and Express.js, and exploring data management with MongoDB and
+          PostgreSQL. While I haven’t yet applied React in a project, I’m
+          actively learning it to leverage its powerful component-based
+          architecture. For version control, I use Git and GitHub, and Docker
+          and AWS help me streamline deployment and scale applications
+          efficiently.
+        </p>
+      </div>
+      <div class="tech-stack">
+        <button onclick="previous()">
+          <i class="ri-arrow-left-circle-fill"></i>
+        </button>
+        <div class="stack">
+          <img src="./images/HTML.png" alt="HTML" srcset="" />
+          <img src="./images/CSS.png" alt="CSS" />
+          <img src="./images/Javascript.png" alt="Javascript" />
+          <img src="./images/bootstrap.png" alt="Bootstrap" />
+          <img src="./images/tailwind.png" alt="Tailwind" />
+          <img src="./images/nodejs.png" alt="NodeJs" />
+          <img src="./images/express.png" alt="Express" />
+          <img src="./images/github.png" alt="Github" />
+          <img src="./images/npm.png" alt="Npm" />
+        </div>
+        <button onclick="next()">
+          <i class="ri-arrow-right-circle-fill"></i>
+        </button>
+      </div>
+    </div>
+    <div id="third-page">
+      <div class="heading">
+        <h1>Work</h1>
+        <p>Projects that I already worked on</p>
+      </div>
+      <div class="work-box">
+        <div class="projects1 pro box">
+          <div class="work-icon">
+            <img
+              src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+          <div class="txt">
+            <h2>Amazon Clone</h2>
+            <p>For Best Experience Open in Desktop</p>
+          </div>
+          <div class="btn-box">
+            <button
+              onclick="window.location.href='https://amazoonnclone.netlify.app/'"
+            >
+              <i class="ri-external-link-line"></i>
+            </button>
+            <button
+              onclick="window.location.href='https://github.com/thebedigupta/Amazon-clone'"
+            >
+              <i class="ri-code-view"></i>
+            </button>
+          </div>
+        </div>
+        <div class="projects2 pro box">
+          <div class="work-icon">
+            <img
+              src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+          <div class="txt">
+            <h2>Amazon Clone</h2>
+            <p>For Best Experience Open in Desktop</p>
+          </div>
+          <div class="btn-box">
+            <button><i class="ri-external-link-line"></i></button>
+            <button><i class="ri-code-view"></i></button>
+          </div>
+        </div>
+        <div class="projects3 pro box">
+          <div class="work-icon">
+            <img
+              src="https://images.unsplash.com/photo-1721332153282-3be1f363074d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+          </div>
+          <div class="txt">
+            <h2>Volley Boll Game</h2>
+            <p>For Best Experience Open in Desktop</p>
+          </div>
+          <div class="btn-box">
+            <button><i class="ri-external-link-line"></i></button>
+            <button><i class="ri-code-view"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="fourth-page">
+      <div class="testimonial-text">
+        <h1>Testimonials</h1>
+        <p>Thank you for your efforts to do mention about my work</p>
+      </div>
+      <div class="testimonial-slider">
+        <button><i class="ri-arrow-left-circle-fill"></i></button>
+        <div class="testimonial">
+          <img src="./images/Coustmer Review.png" alt="" />
+        </div>
+        <button><i class="ri-arrow-right-circle-fill"></i></button>
+      </div>
+    </div>
+    <div id="fifth-page">
+      <div class="text-container">
+        <h1>Get in touch with me</h1>
+      </div>
+      <div class="container">
+        <div class="form-container">
+          <form action="https://formspree.io/f/movablvl" method="POST">
+            <div class="name form-box">
+              <label for="fname">First Name :</label>
+              <label for="lname" class="lname">Last Name :</label>
+            </div>
+            <div class="name-input form-box">
+              <input
+                type="first"
+                name="fname"
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="last"
+                name="lname"
+                id="name-left-input"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="email form-box">
+              <label for="email">Email :</label>
+            </div>
+            <div class="email-input form-box">
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="message form-box">
+              <label for="message">Your Message</label>
+            </div>
+            <div class="message-box form-box">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Enter Your Message Here"
+                required
+              ></textarea>
+            </div>
+            <!-- your other form fields go here -->
+            <button type="submit" class="button" id="send">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="text-container">
+        <p>Thank you for your effort for reaching out to me ❤️</p>
+      </div>
+      <footer class="rights">
+        <p>© 2024 Bedi Gupta. All Rights Reserved.</p>
+        <p>
+          Follow me on
+          <span
+            ><i
+              class="ri-linkedin-box-fill"
+              onclick="window.location.href='https://www.linkedin.com/in/bedigupta/';"
+            ></i
+          ></span>
+          |
+          <span
+            ><i
+              class="ri-twitter-x-fill"
+              onclick="window.location.href='https://x.com/thebedigupta';"
+            ></i
+          ></span>
+          |
+          <span><i class="ri-instagram-line"></i></span>
+        </p>
+      </footer>
     </div>
     <script src="./script.js"></script>
   </body>

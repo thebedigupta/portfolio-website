@@ -1,7 +1,4 @@
 @media (max-width: 1400px) {
-  /* .nav-links{
-    font-size: 4em;
-  } */
 }
 @media (max-width: 1200px) {
   .nav-links a {
@@ -20,15 +17,51 @@
   .box {
     width: 100%;
   }
+  .tech-stack .stack {
+    margin: auto 0;
+    height: 70%;
+  }
+  #third-page {
+    height: fit-content;
+  }
+  .work-box {
+    /* height: fit-content; */
+    flex-direction: column;
+  }
+  .pro {
+    padding: 1em 0;
+  }
+  .testimonial-text {
+    justify-content: center;
+  }
+  .testimonial-text h1 {
+    font-size: 3em;
+  }
+  .testimonial-text p {
+    font-size: 1.2em;
+  }
+  .testimonial-slider {
+    gap: 1em;
+  }
+  .testimonial {
+    width: 80%;
+  }
+  .form-container {
+    font-size: 1.5em;
+    width: inherit;
+  }
+  .lname {
+    margin-left: 3em;
+  }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   #desktop-nav {
     display: none;
   }
   #mobile-nav {
     display: flex;
   }
-  #mobile-nav h1{
+  #mobile-nav h1 {
     font-size: 1.6em;
   }
   #first-page {
@@ -52,5 +85,79 @@
   }
   .btn {
     margin-top: 2em;
+  }
+  .btn:active {
+    background-color: #ffff;
+    color: #4296d4;
+    border: 1px solid #000;
+  }
+  #second-page .text-box h1 {
+    margin-top: 20px;
+    font-size: 2em;
+  }
+  .text-box {
+    width: 90%;
+  }
+  .tech-stack {
+    flex-direction: column;
+    align-items: center;
+  }
+  #third-page {
+    justify-content: space-between;
+    height: fit-content;
+  }
+  #third-page .work-box {
+    flex-direction: column;
+  }
+  .pro {
+    padding: 1em 0;
+  }
+  .heading h1 {
+    font-size: 2em;
+  }
+  .heading p {
+    font-size: 1em;
+  }
+  .testimonial-text {
+    justify-content: center;
+  }
+  .testimonial-text h1 {
+    font-size: 2em;
+  }
+  .testimonial-text p {
+    font-size: 0.7em;
+  }
+  .testimonial-slider {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+  }
+  .testimonial {
+    width: 95%;
+  }
+  .form-container {
+    font-size: 1em;
+    width: inherit;
+  }
+  .form-box {
+    margin: 0;
+  }
+  .name,
+  .name-input {
+    display: none;
+  }
+  .form-box {
+    margin: 0.5em 0;
+  }
+  .container {
+    height: 60%;
+  }
+  .text-container {
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  #message {
+    height: 10em;
+    width: 23em;
   }
 }
