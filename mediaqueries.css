@@ -91,6 +91,9 @@
     color: #4296d4;
     border: 1px solid #000;
   }
+    #second-page{
+    height: fit-content;
+  }
   #second-page .text-box h1 {
     margin-top: 20px;
     font-size: 2em;
